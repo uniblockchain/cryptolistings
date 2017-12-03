@@ -1,0 +1,78 @@
+body {
+	font-family: Helvetica, Arial, Sans-Serif;
+	background-color: #F3F3F3;
+	font-size: 16px;
+	color: #393939;
+}
+
+header {
+	width: 100%;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 25px 20px 25px 20px;
+	font-size: 14px;
+	margin-bottom: -68px;
+}
+
+.content {
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+a {
+	color: #393939;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+header a {
+	padding-left: 20px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.delete {
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	right: 0px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background-color: red;
+	cursor: pointer;
+}
+
+.tweet {
+	position: relative;
+}
+
+.twitter-tweet-rendered {
+	maring-left: auto;
+	margin-right: auto;
+}
+
+#loader {
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+}
+
+@media screen and (max-width : 620px)  {
+	header {
+		margin-bottom: 0px;
+		padding: 10px 10px 0px 10px;
+	}
+
+}
